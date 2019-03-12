@@ -7,7 +7,7 @@ categories: github blog jekyll minimal_mistakes-theme window
 ---
 ## ruby devkit 2.3.3 version 따로 다운로드
 
-![ruby](/assets/img/ruby2.3.3.png)
+![ruby](https://2meu.github.io/assets/img/ruby2.3.3.PNG)
 
 ---
 ## Gemfile 수정
