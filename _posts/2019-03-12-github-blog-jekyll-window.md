@@ -4,13 +4,30 @@ date: 2019-03-12
 categories: github blog jekyll minimal_mistakes-theme window
 ---
 
-1. ruby devkit 2.3.3 version 따로 다운로드
-2.
+---
+## ruby devkit 2.3.3 version 따로 다운로드
 
-![ruby2.3.3(x64)](2meu.github.io/img/ruby2.3.3.PNG)
+![ruby2 3 3](https://2meu.github.io/img/ruby2.3.3.png)
+
+---
+## Gemfile 수정
+
+Gemfile을 아래 내용으로 수정한다.
+```
+source "https://rubygems.org"
+gem "jekyll", "~> 3.5"
+gem "minimal-mistakes-jekyll"
+```
+
+아래 명령어 수행
+```
+$ bundle
+```
+
+
 
 ruby 설치
 (http://error404.co.kr/dev/2018/04/14/jekyll-error/)
 
-links error
+chcp65001 encoding error
 (http://error404.co.kr/dev/2018/04/14/jekyll-error/)
