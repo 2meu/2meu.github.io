@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "Sean"
-  avatar           : "https://user-images.githubusercontent.com/48308562/54183517-b36e5f80-44e7-11e9-8bbf-b3a05a3fcf50.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/img/2meu.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "2dub developer"
   location         : "Seoul Korea"
   email            :
