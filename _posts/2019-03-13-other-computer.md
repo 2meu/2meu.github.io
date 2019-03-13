@@ -24,6 +24,6 @@ date: 2019-03-13
 - `gem install tzinfo-data`
 
 #### 2. 인코딩 문제
-- chcp65001
-- bundle exec jekyll serve (bundle exec 안하면 에러 발생)
+- `chcp 65001`
+- `bundle exec jekyll serve` (bundle exec 안하면 에러 발생)
 - 이제 local로(localhost:4000) 바로 확인하면서 블로그를 편집하고 git add - commit - push로 관리 해준다.
