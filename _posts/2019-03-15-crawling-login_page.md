@@ -1,5 +1,5 @@
 ---
-titel: "로그인이 필요한 사이트 스크레이핑"
+titel: "[스크레이핑 - 기초] 로그인이 필요한 사이트 스크레이핑"
 date: 2019-03-15
 categories : login crawling
 ---
@@ -11,7 +11,38 @@ categories : login crawling
 
 ### <span style="color:purple"> request module </span>
 
+```python
+import requests
 
+# GET
+r = requests.get("URL")
+#POST
+formdata = {"key1":"value1","key2":"value"}
+r = requests.post("URL", data=formdata)
+#etc
+r = requests.put("URL")
+r = requests.delete("URL")
+r = reuqests.head("URL")
+```
+
+### <span style="color:purple"> 이미지 출력 예제 </span>
+
+GET, POST 등의 리턴값에 있는
+- text(문자)
+- content(바이너리문자)
+
+바이너리 데이터인 이미지를 받아 저장하는 예제
+
+```python
+import requests
+r = requests.get("http://wikibook.co.kr/wikibook.png")
+
+# 바이너리 형식으로 데이터 저장하기
+with open("test.png", "wb") as f:
+  f.write(r.content)
+
+print("saved")
+```
 
 
 ## 한빛출판 사이트에서 로그인 후 마일리지, 코인 정보 가져오기
@@ -55,3 +86,5 @@ ecoin = soup.select_one(".mileage_section2 span").get_text()
 print("마일리지 = ", mileage)
 print("이코인 = ", ecoin)
 ```
+
+ref = 위키북스 - 파이썬을 이용한 머신러닝, 딥러닝 실전개발 입문

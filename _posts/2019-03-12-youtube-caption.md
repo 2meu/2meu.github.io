@@ -1,5 +1,5 @@
 ---
-title: Youtube에서 caption 스크레이핑하기
+title: [스크레이핑 - 유튜브] Youtube에서 caption 스크레이핑하기
 date: 2019-03-12
 ---
 
@@ -68,26 +68,28 @@ https://www.googleapis.com/youtube/v3/captions
   for the alien language.
   - standard: A regular caption track. This is the default value.
 
+
 ... 별 내용이 없다. 왼쪽에 captions 목록에 download로 가보자.
+
 ![image](https://user-images.githubusercontent.com/48308562/54335507-88614880-466c-11e9-8cd0-b3e4a678bd04.png)
 
 caption list에서 얻은 id를 통해서 실행해보라고 한다.
 
-`link
-https://www.googleapis.com/youtube/v3/captions
-/id=51pKUI6fCEIbI7guTPyY0UBuGVLqTdai7gHS2fJbZgU=
-&key=AIzaSyBt3aTnFJz9zvryJq-tHe3wq7hNzjJtjK0
-`
 
-.. `Login required`이라고 뜬다.
+[link](https://www.googleapis.com/youtube/v3/captions/id=51pKUI6fCEIbI7guTPyY0UBuGVLqTdai7gHS2fJbZgU=&key=AIzaSyBt3aTnFJz9zvryJq-tHe3wq7hNzjJtjK0)
 
-동영상에 자막에 접근하려면 그 동영상의 주인만 이용할 수 있는 것인가?..
-.. 구글링 해보자.
+
+.. `Login required`이라고 보여진다.동영상에 자막에 접근하려면 그 동영상의 주인만
+이용할 수 있는 것인가?.. 구글링을 해봐도 이 문제에 대해서 찾을 수 없었다. 그래도
+언제나 그렇듯 구글신은 답을 주었다.
+
 
 ![image](https://user-images.githubusercontent.com/48308562/54347895-472c6100-468b-11e9-85f0-80ffe2b4b825.png)
+
 youtube-trascript-api 0.1.3 이라는 꽤 새로나온 것 같은 라이브러리가 존재했다.
 
 바로 실행해보자.
+
 ![image](https://user-images.githubusercontent.com/48308562/54348295-14cf3380-468c-11e9-930e-c563a8d68688.png)
 
 정말 쉽게 얻었다.
@@ -104,7 +106,7 @@ YouTubeTranscriptApi.get_transcript(video_id)
 
 ### python 이용
 
-- 고급스크레이핑 + 셀레니움 공부하자
+- 고급스크레이핑 + 셀레니움 공부하자no
 
 셀레니움 공부 하고 밑에 코드 뜯어서 공부하기!
 

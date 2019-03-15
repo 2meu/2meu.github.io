@@ -1,5 +1,5 @@
 ---
-title: "API를 이용한 Youtube 크롤링"
+title: "[스크레이핑 - 유튜브] API를 이용한 Youtube 스크레이핑"
 date: 2019-03-13
 ---
 

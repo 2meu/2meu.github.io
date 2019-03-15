@@ -1,5 +1,5 @@
 ---
-title: "API를 사용하지 않고 python과 html만을 이용한 youtube 스크레이핑 코딩"
+title: "[스크레이핑 - 유튜브] API를 사용하지 않고 python과 html만을 이용한 youtube 스크레이핑 코딩"
 date: 2019-03-12
 categories: Youtube Crawling
 ---
