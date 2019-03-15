@@ -3,7 +3,7 @@ title: "[스크레이핑] Selenium, PhantomJS로 스크레이핑"
 date: 2019-03-15
 ---
 
-REF: [위키북스]
+*REF: [위키북스] 파이썬을 이용한 머신러닝, 딥러닝 실전 개발 입문*
 
 자바스크립트를 많이 사용하는 웹 사이트는 웹 브라우저를 사용하지 않을 경우 제대로 동작을 확인할 수 없습니다. 그래서 이러한 사이트는 이전에 소개한 requests 모듈로 대처할 수 없습니다.
 
@@ -20,3 +20,24 @@ PhantomJS는 명령줄에서 사용할 수있는 headless 웹 브라우저입니
 - 압축파일에 있는 phantomjs.exe파일만 crawling 가상환경 밑에 존재하는 `selenium/webdrivce/phantomjs` 경로에 넣어준다.
 - PATH 지정
 `C:\Users\2Dub\Anaconda3\envs\crawling\Lib\site-packages\selenium\webdriver\phantomjs`
+
+## 네이버에 로그인해서 구매한 물건 목록 가져오기
+
+```python
+from selenium import webdriver
+USER = "<아이디>"
+PASS = "<비밀번호>"
+
+# PhantomJS 드라이버 추출하기
+browser = webdriver.PhantomJS()
+browser.implicitly_wait(3)
+
+# 로그인 페이지에 접속하기
+url_login = "https://nid.naver.com/nidlogin.login"
+browser.get(url_login)
+print("로그인 페이지에 접근합니다.")
+
+# 텍스트 박스에 아이디와 비밀번호 입력하기
+e = browser.find_element_by_id
+
+```

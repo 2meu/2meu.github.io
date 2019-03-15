@@ -1,5 +1,5 @@
 ---
-title: [스크레이핑 - 유튜브] Youtube에서 caption 스크레이핑하기
+title: "[스크레이핑 - 유튜브] Youtube에서 caption 스크레이핑하기"
 date: 2019-03-12
 ---
 
