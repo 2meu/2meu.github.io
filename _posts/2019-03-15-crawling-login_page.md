@@ -1,7 +1,7 @@
 ---
-titel: "[스크레이핑 - 기초] 로그인이 필요한 사이트 스크레이핑"
+title: "[스크레이핑 - 기초] 로그인이 필요한 사이트 스크레이핑"
 date: 2019-03-15
-categories : login crawling
+categories : login scraping
 ---
 
 ## GET은 가져오는 것이고 POST는 수행하는 것입니다.
