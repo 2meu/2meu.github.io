@@ -14,14 +14,15 @@ date: 2019-03-12
 
 ### Google API를 이용
 
-Google API captions - list에 들어가 HTTP request 정를 얻는다.
+Google API captions - list에 들어가 HTTP request 정보를 얻는다.
 
-`link
+```
 https://www.googleapis.com/youtube/v3/captions
 ?part=snippet
 &videoId=2zR1GOLhlU4
 &key=AIzaSyBt3aTnFJz9zvryJq-tHe3wq7hNzjJtjK0
-`
+```
+
 
 - part: snippet
 - id: videoId=2zR1GOLhlU4
@@ -98,9 +99,10 @@ youtube-trascript-api 0.1.3 이라는 꽤 새로나온 것 같은 라이브러�
 
 ```python
 pip install youtube_transcript_api
+# 명령어 conda는 실행이 안된다. 이유는 모르겠음.
 
 from youtube_transcript_api import YouTubeTranscriptApi
-YouTubeTranscriptApi.get_transcript(video_id)
+YouTubeTranscriptApi.get_transcript("6NqKrhmnVNY")
 ```
 
 
@@ -204,3 +206,5 @@ def main(argv):
 if __name__ == "__main__":
     main(sys.argv)
 ```
+
+hihi
