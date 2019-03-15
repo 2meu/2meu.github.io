@@ -1,5 +1,5 @@
 ---
-title: 모든 페이지를 한꺼번에 다운받는 프로그램
+title: 모든 페이지를 재귀적으로 한꺼번에 다운받는 프로그램
 date: 2019-03-13
 ---
 
@@ -124,3 +124,14 @@ result
 
 >> ParseResult(scheme='http',netloc='www.python.org:80:80',path='/guido/python.html')
 ```
+
+python 실행하면
+
+```python
+if __name__ == "__main__":
+  #URL에 있는 모든 것 다운받기
+  url = "https://docs.python.org/3.5/library/"
+  analyze_html(url, url)
+```
+
+쪽에서 에러가 나는데 이유를 찾아보자.
