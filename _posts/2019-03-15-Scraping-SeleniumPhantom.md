@@ -1,5 +1,5 @@
 ---
-title: "[스크레이핑] Selenium, PhantomJS로 스크레이핑"
+title: "[스크레이핑 - 기초] Selenium, PhantomJS로 스크레이핑"
 date: 2019-03-15
 ---
 
@@ -38,6 +38,48 @@ browser.get(url_login)
 print("로그인 페이지에 접근합니다.")
 
 # 텍스트 박스에 아이디와 비밀번호 입력하기
-e = browser.find_element_by_id
+e = browser.find_element_by_id("id")
+e.clear()
+# 무언가 적혀있다면 지워주라는 말인가?
+e.send_keys(USER)
+e = browser.find_element_by_id("pw")
+e.clear()
+e.send_keys(PASS)
 
+# 입력 양식 전송해서 로그인하기
+form= browser.find_element_by_css_selector("input.btn_global[type=submit]")
+form.submit()
+print("로그인 버튼을 클릭합니다.")
+
+# 쇼핑 페이지의 데이터 가져오기
+browser.get("https://order.pay.naver.com/home?tabMenu=SHOPPING")
+
+# 쇼핑 목록 출력하기
+product = browser.find_elements_by_css_selector(".p_info span")
+print(products)
+for product in products:
+  print("-", product.text)
 ```
+
+아무런 정보가 뜨지 않는다.
+
+```python
+browser.get("https://order.pay.naver.com/home?tabMenu=SHOPPING")
+html = browser.page_source
+print(html)
+```
+
+을 해보았더니 여전히 로그인 창이다. 로그인이 되지 않은 것이다.
+실제로 로그인 페이지에 들어가 로그인을 해보려고 하니 자동 로그인 방지 매크로가 설정되어 있었다.
+
+댓글 조작에 민감한 네이버가 막아놓은것 같다고 한다.
+
+## 네이버 API로 읽어오기
+
+
+
+
+## 결론
+
+네이버로 로그인 하는 selenium은 동작하지 못한다. 다른 작은 웹사이트에서 로그인 해서
+정보를 스크레이핑 해보자.
