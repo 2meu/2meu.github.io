@@ -1,0 +1,57 @@
+---
+titel: "로그인이 필요한 사이트 스크레이핑"
+date: 2019-03-15
+categories : login crawling
+---
+
+## GET은 가져오는 것이고 POST는 수행하는 것입니다.
+
+이 개념만 잘 생각하고 있으면 상황에 따라서 어느정도 선택을 할 수 있습니다.(물론 그래도 좀 고민되는 예외상황들은 있게 마련이죠.) 좀 자세히 설명하면 GET은 Select적인 성향을 가지고 있습니다. GET은 서버에서 어떤 데이터를 가져와서 보여준다거나 하는 용도이지 서버의 값이나 상태등을 바꾸지 않습니다. 게시판의 리스트라던지 글보기 기능 같은 것이 이에 해당하죠.(방문자의 로그를 남긴다거나 글읽은 횟수를 올려준다거나 하는건 예외입니다.) 반면에 POST는 서버의 값이나 상태를 바꾸기 위해서 사용합니다. 글쓰기를 하면 글의 내용이 디비에 저장이 되고 수정을 하면 디비값이 수정이 되죠. 이럴 경우에 POST를 사용합니다.
+[https://blog.outsider.ne.kr/312](https://blog.outsider.ne.kr/312)
+
+### <span style="color:purple"> request module </span>
+
+
+
+
+## 한빛출판 사이트에서 로그인 후 마일리지, 코인 정보 가져오기
+
+```python
+import requests
+from urllib.parse import urljoin
+from bs4 import BeautifulSoup
+
+## 아톰에서 파이썬 실행 시 스크립트 한글 깨짐 해결 코드
+import sys
+import io
+sys.stdout = io.TextIOWrapper(sys.stdout.detach(), encoding = 'utf-8')
+sys.stderr = io.TextIOWrapper(sys.stderr.detach(), encoding = 'utf-8')
+
+
+USER = 'zlslsp54'
+PASS = 'eodgus54'
+
+# 세션 시작하기
+session = requests.session()
+#로그인하기
+login_info = {
+    "m_id": USER,
+    "m_passwd": PASS
+}
+url_login = "http://www.hanbit.co.kr/member/login_proc.php"
+res = session.post(url_login, data=login_info)
+res.raise_for_status()
+
+# 마이페이지에 접근하기
+url_mypage = "http://www.hanbit.co.kr/myhanbit/myhanbit.html"
+res = session.get(url_mypage)
+res.raise_for_status()
+
+# 마일리지와 이코인 가져오기
+
+soup = BeautifulSoup(res.text, "html.parser")
+mileage = soup.select_one(".mileage_section1 span").string
+ecoin = soup.select_one(".mileage_section2 span").get_text()
+print("마일리지 = ", mileage)
+print("이코인 = ", ecoin)
+```
