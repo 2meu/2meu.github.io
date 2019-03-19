@@ -81,22 +81,15 @@ if __name__ == "__main__":
   analyze_html(url, url)
 ```
 
----
-
-##### Ref
-- 파이썬을 이용한 머신러닝, 딥러닝 실전개발 입문[위키북스]
-- https://kimdoky.github.io/python/2017/06/12/python-urllib.html
-
-
 ## urlopen
 
 *urlopen() 에서는 몇가지 메서드를 지원한다. 자주 사용하는 몇가지 정리하면*
 
-urlopen().read([nbytes]) : nbyte의 데이터를 바이트 문자열로 읽음 ​
-urlopen().readline() : 한 줄의 텍스트를 바이트 문자열로 읽음
-urlopen().​info() : URL에 연관된 메타 정보를 담은 매핑 객체를 반환​
-urlopen().getcode() : HTTP 응답 코드를 정수로 반환( 200, 404 )
-urlopen().close() : 연결을 닫는다
+- urlopen().read([nbytes]) : nbyte의 데이터를 바이트 문자열로 읽음 ​
+- urlopen().readline() : 한 줄의 텍스트를 바이트 문자열로 읽음
+- urlopen().​info() : URL에 연관된 메타 정보를 담은 매핑 객체를 반환​
+- urlopen().getcode() : HTTP 응답 코드를 정수로 반환( 200, 404 )
+- urlopen().close() : 연결을 닫는다
 
 
 ## os.path.dirname(path)
@@ -125,7 +118,7 @@ result
 >> ParseResult(scheme='http',netloc='www.python.org:80:80',path='/guido/python.html')
 ```
 
-python 실행하면
+#### python 실행하면
 
 ```python
 if __name__ == "__main__":
@@ -135,3 +128,7 @@ if __name__ == "__main__":
 ```
 
 쪽에서 에러가 나는데 이유를 찾아보자.
+
+
+##### Ref
+- https://kimdoky.github.io/python/2017/06/12/python-urllib.html

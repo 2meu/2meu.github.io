@@ -81,21 +81,16 @@ caption list에서 얻은 id를 통해서 실행해보라고 한다.
 
 
 .. `Login required`이라고 보여진다.동영상에 자막에 접근하려면 그 동영상의 주인만
-이용할 수 있는 것인가?.. 구글링을 해봐도 이 문제에 대해서 찾을 수 없었다. 그래도
-언제나 그렇듯 구글신은 답을 주었다.
+이용할 수 있는 것인가? 정보를 더 찾아보았더니 api를 이용한 library가 존재했다.
 
 
 ![image](https://user-images.githubusercontent.com/48308562/54347895-472c6100-468b-11e9-85f0-80ffe2b4b825.png)
-
-youtube-trascript-api 0.1.3 이라는 꽤 새로나온 것 같은 라이브러리가 존재했다.
 
 바로 실행해보자.
 
 ![image](https://user-images.githubusercontent.com/48308562/54348295-14cf3380-468c-11e9-930e-c563a8d68688.png)
 
-정말 쉽게 얻었다.
-
-앞으로는 이 라이브러리를 사용해야겠다.
+auto-generated 자막까지 얻을 수 있어 좋은것 같다.
 
 ```python
 pip install youtube_transcript_api
@@ -206,5 +201,3 @@ def main(argv):
 if __name__ == "__main__":
     main(sys.argv)
 ```
-
-hihi

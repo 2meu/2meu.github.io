@@ -5,14 +5,14 @@ date: 2019-03-13
 
 ## Git bash 설정
 
+- 다운로드 받고 싶은 상위 폴더에 git bash로 접속한다.
 
 - git clone https://github.com/2meu/2meu.github.io
 
-- `cd 2meu.github.io` 하면 자동으로 remote 되어있는 2meu.github.io file이 생성되어 있다.
+- `cd 2meu.github.io` 하면 자동으로 remote 되어있는 2meu.github.io file이 local에
+생성 되었다.
 
 ![ruby](/assets/img/other-computer1.PNG)
-
----
 
 ## Ruby prompt
 

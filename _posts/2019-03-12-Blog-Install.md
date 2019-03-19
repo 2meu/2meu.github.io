@@ -17,7 +17,7 @@ categories: github blog jekyll minimal_mistakes-theme window
 ---
 
 ## 2. Ruby 설치
-> 최신 버전은 에러가 날 가능성이 있다고 한다.
+> 최신 버전은 에러가 날 가능성이 있다고 하네요
 
 #### ruby 2.3.3(x64), devkit(x64)(old) version 따로 다운로드
 

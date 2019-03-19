@@ -19,7 +19,7 @@ res = req.urlopen(url)
 ```
 
 
-- find - find() 메서드는 객체를 사용해 여러 개의 조건을 한 번에 지정할 수 있다는 것이 특징
+- find: find() 메서드는 객체를 사용해 여러 개의 조건을 한 번에 지정할 수 있다는 것이 특징
 
 ```python
 #ex-1)
@@ -40,7 +40,7 @@ for a in links:
 ```
 
 
-- CSS 선택자 이용 - select, select_one
+- CSS 선택자 사용: '>'를 이용해 순차적으로 tag를 찾아갈 수 있다. - select, select_one
 
 `text = soup.select("div#meigen > ul.items > li")`
 

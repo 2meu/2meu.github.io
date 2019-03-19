@@ -7,7 +7,6 @@ categories : login scraping
 ## GET은 가져오는 것이고 POST는 수행하는 것입니다.
 
 이 개념만 잘 생각하고 있으면 상황에 따라서 어느정도 선택을 할 수 있습니다.(물론 그래도 좀 고민되는 예외상황들은 있게 마련이죠.) 좀 자세히 설명하면 GET은 Select적인 성향을 가지고 있습니다. GET은 서버에서 어떤 데이터를 가져와서 보여준다거나 하는 용도이지 서버의 값이나 상태등을 바꾸지 않습니다. 게시판의 리스트라던지 글보기 기능 같은 것이 이에 해당하죠.(방문자의 로그를 남긴다거나 글읽은 횟수를 올려준다거나 하는건 예외입니다.) 반면에 POST는 서버의 값이나 상태를 바꾸기 위해서 사용합니다. 글쓰기를 하면 글의 내용이 디비에 저장이 되고 수정을 하면 디비값이 수정이 되죠. 이럴 경우에 POST를 사용합니다.
-[https://blog.outsider.ne.kr/312](https://blog.outsider.ne.kr/312)
 
 ### <span style="color:purple"> request module </span>
 
@@ -97,3 +96,6 @@ print("이코인 = ", ecoin)
 [다음절](https://2meu.github.io/Scraping-SeleniumPhantom/)
 
 [위키북스] 파이썬을 이용한 머신러닝, 딥러닝 실전개발 입문
+
+## Reference
+[https://blog.outsider.ne.kr/312](https://blog.outsider.ne.kr/312)

@@ -3,7 +3,7 @@ title: "[스크레이핑 - 유튜브] API를 이용한 Youtube 스크레이핑"
 date: 2019-03-13
 ---
 
-## 한 채널의 모든 동영상의 정보를 얻어오기
+## 한 채널의 모든 동영상의 정보를 얻어오기(with Playlist Google API)
 
 - API얻기 about Best New Trailers = February 2019
 

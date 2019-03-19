@@ -4,8 +4,11 @@ date: 2019-03-18
 categories: youtube scraping
 ---
 
+## 파일 형식으로 local에 저장한 모습
+
 ![image](https://user-images.githubusercontent.com/48308562/54528214-a35ef000-49bf-11e9-9a4c-080f56de7eb6.png)
 
+## python code
 
 ```python
 # pip install pytube

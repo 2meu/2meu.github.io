@@ -3,11 +3,13 @@ title: "[스크레이핑 - 유튜브] 유튜브 비디오+mp3 파일 다운로�
 date: 2019-03-13
 ---
 
-- ffmpeg path 지정
+## ffmpeg path 지정
+
+동영상을 mp3로 변환하기위한 코덱이다.pyhton에서 subprocess를 통해 수행된다.
 
 ![ruby](https://trello-attachments.s3.amazonaws.com/5c7cc2d91aa0cf20079e9df2/905x209/54a7c3e3d41fab78c5226a741638adf6/image.png)
 
-- code
+## code
 
 `pip install pytube`
 
