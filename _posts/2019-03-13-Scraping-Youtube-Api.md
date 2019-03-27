@@ -17,7 +17,7 @@ id = {channel id}를 입력 후 채널에 있는 모든 동영상 리스트가 �
 "https://www.googleapis.com/youtube/v3/playlistItems?
 part=snippet
 &playlistId=PLScC8g4bqD45eu7f_keu6C-SJ31wxZip6
-&key=AIzaSyBt3aTnFJz9zvryJq-tHe3wq7hNzjJtjK0"
+&key=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 ![ruby](/assets/img/youtube-api1.PNG)
 
 5. consol창에 javascript 코드 사용하여 snippet에 있는 title, link, publishedAt

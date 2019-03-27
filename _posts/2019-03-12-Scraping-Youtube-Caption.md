@@ -20,7 +20,7 @@ Google API captions - list에 들어가 HTTP request 정보를 얻는다.
 https://www.googleapis.com/youtube/v3/captions
 ?part=snippet
 &videoId=2zR1GOLhlU4
-&key=AIzaSyBt3aTnFJz9zvryJq-tHe3wq7hNzjJtjK0
+&key=~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ```
 
 

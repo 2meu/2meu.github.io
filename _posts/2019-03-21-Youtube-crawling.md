@@ -1,5 +1,5 @@
 ---
-title: '[크롤링 - 유튜브] 객체지향 + sqlite에 저장하기'
+title: '[크롤링 - 유튜브] 간단한 프로그래밍과 sqlite에 저장하기'
 date: 2019-03-21
 ---
 
@@ -18,7 +18,7 @@ import sqlite3
 #url = input("URL address: ")
 #apiKey = input("API key")
 url = "https://www.youtube.com/watch?v=JyGGLB542ks"
-apiKey = "AIzaSyBt3aTnFJz9zvryJq-tHe3wq7hNzjJtjK0"
+apiKey = ""
 
 try:
     pat = re.compile("(v=)([a-zA-Z0-9-_]{11})")

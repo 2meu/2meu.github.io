@@ -95,7 +95,5 @@ print("이코인 = ", ecoin)
 
 [다음절](https://2meu.github.io/Scraping-SeleniumPhantom/)
 
-[위키북스] 파이썬을 이용한 머신러닝, 딥러닝 실전개발 입문
-
 ## Reference
 [https://blog.outsider.ne.kr/312](https://blog.outsider.ne.kr/312)
