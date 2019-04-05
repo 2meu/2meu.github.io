@@ -1,7 +1,7 @@
 ---
 title: "[블로그] window에서 github 블로그 jekylle 테마 연동"
 date: 2019-03-12
-categories: github blog jekyll minimal_mistakes-theme window
+categories: [BLOG]
 ---
 
 ## 1. minimal mistakes 테마 적용
