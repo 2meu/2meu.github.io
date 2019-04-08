@@ -2,6 +2,7 @@
 main:
   - title: "Categoires"
     url: https://2meu.github.io/categories/#
+  - title: "Portfolio"
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
