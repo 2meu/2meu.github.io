@@ -2,8 +2,8 @@
 main:
   - title: "Categoires"
     url: https://2meu.github.io/categories/#
-  - title: "tag"
-    url: https://2meu.github.io/tags/#
+  #- title: "tag"
+  #  url: https://2meu.github.io/tags/#
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
