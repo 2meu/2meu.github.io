@@ -1,6 +1,7 @@
 ---
-title: "[스크레이핑 - 유튜브] Youtube에서 caption 스크레이핑하기"
+title: "[Crawling] subtitles crawling on youtube"
 date: 2019-03-12
+categories: [Crawling]
 ---
 
 ## closed caption과 subtitles의 차이점

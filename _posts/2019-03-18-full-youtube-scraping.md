@@ -1,7 +1,7 @@
 ---
-title: "[스크레이핑 - 유튜브] 유튜브에서 비디오, mp3, 정보, 자막 한번에 스크레이핑"
+title: "[Crawling] 유튜브에서 비디오, mp3, 정보, 자막 한번에 스크레이핑"
 date: 2019-03-18
-categories: youtube scraping
+categories : [Crawling]
 ---
 
 ## 파일 형식으로 local에 저장한 모습

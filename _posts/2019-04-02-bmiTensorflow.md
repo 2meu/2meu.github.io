@@ -1,6 +1,7 @@
 ---
-title: '[딥러닝] BMI tensorflow 학습'
+title: '[Deep Learning] BMI tensorflow 학습'
 date: 2019-04-02
+categories : [Deep Learning]
 ---
 
 ```python

@@ -1,6 +1,7 @@
 ---
-title: "[스크레이핑 - 기초]모든 페이지를 재귀적으로 한꺼번에 다운받는 프로그램"
+title: "[Crawling] 모든 페이지를 재귀적으로 한꺼번에 다운받는 프로그램"
 date: 2019-03-13
+categories: [Crawling]
 ---
 
 ```python

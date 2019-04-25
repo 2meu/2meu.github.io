@@ -1,7 +1,7 @@
 ---
-title: "[블로그] 다른 컴퓨터에서 깃허브 블로그 수정"
+title: "[Blog] edit git blog to the other local computer"
 date: 2019-03-13
-categories: [BLOG]
+categories: [Blog]
 ---
 
 ## Git bash 설정

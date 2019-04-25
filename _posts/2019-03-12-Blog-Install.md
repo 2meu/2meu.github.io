@@ -1,7 +1,7 @@
 ---
-title: "[블로그] window에서 github 블로그 jekylle 테마 연동"
+title: "[Blog] how to use minimal-mistakes jekyll theme to make git blog on window "
 date: 2019-03-12
-categories: [BLOG]
+categories: [Blog]
 ---
 
 ## 1. minimal mistakes 테마 적용

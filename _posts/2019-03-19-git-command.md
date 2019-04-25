@@ -1,6 +1,7 @@
 ---
-title: "[git] 주요 명령어"
+title: "[Git] 주요 명령어"
 date: 2019-03-19
+categories : [Git]
 ---
 
 ## 파일 삭제하기

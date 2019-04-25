@@ -1,6 +1,7 @@
 ---
-title: "[스크레이핑 - 유튜브] 유튜브 비디오+mp3 파일 다운로드"
+title: "[Crawling] How to crawling youtube video and mp3 file together"
 date: 2019-03-13
+categories: [Crawling]
 ---
 
 ## ffmpeg path 지정

@@ -1,7 +1,7 @@
 ---
-title: "[블로그] Minimal Mistakes Configuration"
+title: "[Blog] Minimal Mistakes Configuration"
 date: 2019-04-05
-categories: github blog jekyll minimal_mistakes-theme window _con.yml
+categories: [Blog]
 ---
 
 ## skin

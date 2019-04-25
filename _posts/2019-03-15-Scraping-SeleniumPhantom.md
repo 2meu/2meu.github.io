@@ -1,6 +1,7 @@
 ---
-title: "[스크레이핑 - 기초] Selenium, PhantomJS로 스크레이핑"
+title: "[Crawling] Selenium, PhantomJS로 스크레이핑"
 date: 2019-03-15
+categories : [Crawling]
 ---
 
 자바스크립트를 많이 사용하는 웹 사이트는 웹 브라우저를 사용하지 않을 경우 제대로 동작을 확인할 수 없습니다. 그래서 이러한 사이트는 이전에 소개한 requests 모듈로 대처할 수 없습니다.

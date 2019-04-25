@@ -1,6 +1,7 @@
 ---
-title: '[크롤링 - 유튜브] 간단한 프로그래밍과 sqlite에 저장하기'
+title: '[Crawling] 간단한 프로그래밍과 sqlite에 저장하기'
 date: 2019-03-21
+categories : [Crawling]
 ---
 
 동영상과 mp3 파일을 제외한 제목, 설명, 언어, 자막의 정보만 sqlite에 저장하는 코드

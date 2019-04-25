@@ -1,6 +1,7 @@
 ---
-title: '[텍스트 마이닝] konlpy를 활용한 형태소 분석을 통해 명사 출현 빈도 분석 '
+title: '[NLP] konlpy를 활용한 형태소 분석을 통해 명사 출현 빈도 분석 '
 date: 2019-03-26
+categories : [NLP]
 ---
 
 

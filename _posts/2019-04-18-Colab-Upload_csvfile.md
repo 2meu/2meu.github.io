@@ -1,6 +1,7 @@
 ---
-title: '[COLAB] how to upload csv file to colab'
+title: 'How to upload csv file to colab'
 date: 2019-04-18
+categories : [ETC]
 ---
 
 ## Local
@@ -28,4 +29,4 @@ df = pd.read_csv(url)
 # Dataset is now stored in a Pandas Dataframe
 ```
 
-## don't use "From Google Drive via PyDrive" 
+## don't use "From Google Drive via PyDrive"

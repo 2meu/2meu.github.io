@@ -1,6 +1,7 @@
 ---
 title: '[Audio data] Audio Data Analysis using Deep Learning'
 date: 2019-04-12
+categories : [Audio]
 ---
 
 ## File format

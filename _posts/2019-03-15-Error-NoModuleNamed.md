@@ -1,7 +1,7 @@
 ---
-title: "[에러] Jupyter No module named 문제 해결"
+title: "[Error] Jupyter No module named"
 date: 2019-03-15
-categories: jupyter no_module_named
+categories: [Error]
 ---
 
 ## 문제
