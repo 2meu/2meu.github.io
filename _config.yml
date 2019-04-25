@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Sean"
   avatar           : "/assets/img/2meu.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "2dub developer"
+  bio              : "2dub Developer"
   location         : "Seoul Korea"
   email            : "zlslsp54@gmail.com"
   links:
@@ -126,7 +126,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/2meu"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -285,7 +285,7 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      type: pages
     values:
       layout: single
       author_profile: true
