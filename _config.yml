@@ -284,7 +284,7 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "https://2meu.github.io/categories/#"
       type: pages
     values:
       layout: single
