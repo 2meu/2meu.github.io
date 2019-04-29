@@ -1,5 +1,5 @@
 ---
-title: [ELASTIC] Basic of Elastic
+title: '[ELASTIC] Basic of Elastic'
 date: 2019-04-23
 categories : [Elastic]
 ---
