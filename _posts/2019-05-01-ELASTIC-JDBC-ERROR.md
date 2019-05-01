@@ -1,5 +1,5 @@
 ---
-title: "[ELASTIC] Error at bringing DB from mysql to logstash"
+title: ''[ELASTIC] Error at bringing DB from mysql to logstash'
 date: 2019-05-01
 categories: [ELASTIC]
 ---
