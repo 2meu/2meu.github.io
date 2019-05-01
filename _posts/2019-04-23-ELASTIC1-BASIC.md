@@ -81,7 +81,7 @@ $
 
 [참고 페이지](https://m.blog.naver.com/PostView.nhn?blogId=ambition0917&logNo=221120007065&proxyReferer=https%3A%2F%2Fwww.google.com%2F)
 
-Elasticsearch [다운드 페이지](https://www.elastic.co/downloads/elasticsearch)
+Elasticsearch [다운로드 페이지](https://www.elastic.co/downloads/elasticsearch)
   - 실행: bin/elasticsearch.bat
   - 접속확인 url: localhost:9200
 
@@ -91,7 +91,6 @@ Kibana [다운로드 페이지](https://www.elastic.co/downloads/kibana)
 
 로컬 환경에서 간단히 데이터 조회 및 Kibana를 통한 데이터 시각화에 사용할 것이라 기본설정을 유지한다.
 Elasticsearch를 실 서비스등에 사용하고자 한다면 노드나 인덱스 관련 좀 더 많은 설정을 필요로한다.
-
 
 ## RDB와 비교
 
