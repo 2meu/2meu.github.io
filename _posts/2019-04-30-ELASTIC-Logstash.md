@@ -30,6 +30,8 @@ conf 파일을 어떻게 구성해야 하는지 간단한 예제로 살펴 봅�
 
 `bin\logstash -f config\simple.conf`
 
+- output 형식이 rubydebug
+
 저는 config folder밑에 simple.conf 파일을 `notepad/config/simple.conf` 명령어를 통해 만들어줍니다. 그 다음 CMD 창에서 위 명령어를 실행해줍니다.
 
 ![image](https://user-images.githubusercontent.com/48308562/57002910-c8b95d80-6bfd-11e9-81ca-823f25f8413d.png)
