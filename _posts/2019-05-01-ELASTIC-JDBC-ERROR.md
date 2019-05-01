@@ -70,3 +70,5 @@ Error: com.mysql.jdbc.Driver not loaded. Are you sure you've included the correc
 
 
 ![image](https://user-images.githubusercontent.com/48308562/57010444-a6dccc80-6c37-11e9-87d3-5696f2ccc1f5.png)
+
+[Ref](https://qbox.io/blog/migrating-mysql-data-into-elasticsearch-using-logstash)
