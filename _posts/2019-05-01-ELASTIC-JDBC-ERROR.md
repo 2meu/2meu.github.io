@@ -66,4 +66,7 @@ C:/elastic/logstash/logstash-core/lib/logstash/java_pipeline.rb:290:in `block in
 Error: com.mysql.jdbc.Driver not loaded. Are you sure you've included the correct jdbc driver in :jdbc_driver_library?
 ```
 
-이 부분이 main 에러인 것 같다.
+이 부분이 main 에러인 것 같다. 구글링 해서 찾아본 결과 lib에 설치한 `mysql-connector-java-8.0.16.jar"` 파일이 비어있을 때 발생한다고 하는데 내 파일에서 찾아본 결과 모두 정상적으로 존재했다.(아래 그림)
+
+
+![image](https://user-images.githubusercontent.com/48308562/57010444-a6dccc80-6c37-11e9-87d3-5696f2ccc1f5.png)
