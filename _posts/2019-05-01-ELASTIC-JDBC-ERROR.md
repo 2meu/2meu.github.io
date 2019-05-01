@@ -60,7 +60,7 @@ C:/elastic/logstash/logstash-core/lib/logstash/java_pipeline.rb:297:in `inputwor
 C:/elastic/logstash/logstash-core/lib/logstash/java_pipeline.rb:290:in `block in start_input'
 ```
 
-위에 보이는 에러중
+위에 보이는 에러 중
 
 ```
 Error: com.mysql.jdbc.Driver not loaded. Are you sure you've included the correct jdbc driver in :jdbc_driver_library?
