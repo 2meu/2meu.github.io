@@ -1,7 +1,7 @@
 ---
-title: '[ELASTIC] Error at bringing DB from mysql to logstash'
+title: '[ELASTIC] Error during brining db file from mysql to logstash'
 date: 2019-05-01
-categories: [Elastic]
+categories : [Elastic]
 ---
 
 ![image](https://user-images.githubusercontent.com/48308562/57010232-a4c63e00-6c36-11e9-812c-5c5b2a2aae95.png)
